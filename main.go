@@ -1,6 +1,10 @@
 package main
 
-import "fmt"
+import (
+	"github.com/layemut/algorithms-in-go/search"
+	"fmt"
+)
 func main(){
-  fmt.Print("Hello!")
+  arr := []int{1,2,3,4,5}
+  fmt.Println("index: ", search.Binary(arr, 2))
 }
