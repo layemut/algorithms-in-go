@@ -9,8 +9,7 @@ import (
 
 // main func.
 func main() {
-	arr := []int{1, 2, 3, 4, 5}
-	fmt.Println("index: ", search.Binary(arr, 4))
+	fmt.Println("index: ", search.Binary([]int{1, 2, 3, 4, 7, 8, 9, 10}, 4))
 	fmt.Println("CountingValleys result: ", interview.CountingValleys(8, "UDDDUUUUDDUUUD"))
 	fmt.Println("JumpingClouds result: ", interview.JumpingOnClouds([]int32{0, 1, 0, 1, 0, 1, 0}))
 	fmt.Println("RepeatedString result: ", interview.RepeatedString("aaa", 21))
